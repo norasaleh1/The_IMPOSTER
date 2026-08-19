@@ -1,0 +1,6 @@
+{
+  "name": "THE IMPOSTOR",
+  "description": "A cinematic detective mystery investigation game where players inspect classified evidence, cross-examine suspect statements, and find the contradiction to catch the thief.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
