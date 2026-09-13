@@ -1,6 +1,7 @@
 <p align="center">
   <img src="logo.png" alt="THE IMPOSTOR Logo" width="300">
 </p>
+
 #  THE IMPOSTOR
 
 ### An AI-Powered Full-Stack Detective Investigation Game
