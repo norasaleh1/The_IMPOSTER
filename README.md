@@ -1,4 +1,4 @@
-# 🕵️ THE IMPOSTOR
+#  THE IMPOSTOR
 
 ### An AI-Powered Full-Stack Detective Investigation Game
 
@@ -10,7 +10,7 @@ Built as a full-stack web application, the project combines investigation gamepl
 
 ---
 
-## 🔎 About the Game
+##  About the Game
 
 Each case begins with an incident briefing and a group of suspects.
 
@@ -20,7 +20,7 @@ But accusations have consequences — players have limited attempts, and their f
 
 ---
 
-## 📁 Confidential Case Files
+##  Confidential Case Files
 
 The game currently contains **three complete investigations**:
 
@@ -40,47 +40,47 @@ Every case includes its own suspects, evidence, timeline, interrogations, contra
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 🗣️ Interactive Interrogation Room
+###  Interactive Interrogation Room
 
 Question suspects and unlock new confrontation options as the investigation progresses.
 
-### 🔬 Evidence Locker & Forensics
+###  Evidence Locker & Forensics
 
 Inspect digital logs, CCTV records, forensic findings, and other evidence collected during each case.
 
-### 🧵 Investigation Board
+###  Investigation Board
 
 Connect suspects and clues using an interactive investigation board to discover relationships and contradictions.
 
 Correct connections can earn bonus investigation points.
 
-### ⏱️ Case Timeline
+###  Case Timeline
 
 Compare verified timestamps with suspect statements to identify inconsistencies in their stories.
 
-### 🤖 AI Detective Assistant — AIDEN
+###  AI Detective Assistant — AIDEN
 
 An integrated detective assistant powered by the **Google Gemini API** helps investigators reason about the case without directly revealing the solution.
 
 If Gemini is unavailable, the game can continue using its built-in heuristic fallback system.
 
-### 🎯 Accusation System
+###  Accusation System
 
 When enough evidence has been collected, investigators can submit their final accusation.
 
 Players receive limited attempts, making every decision important.
 
-### 🏆 Scoring & Investigator Ranking
+###  Scoring & Investigator Ranking
 
 Performance is evaluated based on investigation accuracy and player decisions.
 
-### 🥇 Hall of Fame
+###  Hall of Fame
 
 Completed investigations and scores are stored using SQLite and displayed through a persistent leaderboard.
 
-### 🔊 Procedural Audio
+###  Procedural Audio
 
 The game includes dynamically generated sound effects such as typewriter sounds, clue notifications, and victory effects using the Web Audio API.
 
@@ -88,7 +88,7 @@ No external audio files are required.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer             | Technologies               |
 | ----------------- | -------------------------- |
@@ -103,7 +103,7 @@ No external audio files are required.
 
 ---
 
-## 🎮 Investigation Flow
+##  Investigation Flow
 
 ```text
 CASE BRIEFING
@@ -127,7 +127,7 @@ SCORE & INVESTIGATOR RANK
 
 ---
 
-## 💡 What Makes THE IMPOSTOR Different?
+##  What Makes THE IMPOSTOR Different?
 
 Rather than presenting the player with a simple sequence of questions, **THE IMPOSTOR** creates an investigation environment where information is distributed across multiple systems.
 
@@ -145,7 +145,7 @@ The goal is not simply to guess the culprit — it is to **build a case against 
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 Potential future development includes:
 
@@ -160,7 +160,7 @@ Potential future development includes:
 
 ---
 
-## 👩🏻‍💻 Project
+##  Project
 
 Developed as a full-stack interactive investigation game combining **web development, database systems, artificial intelligence, and game design**.
 
@@ -168,7 +168,7 @@ Developed as a full-stack interactive investigation game combining **web develop
 
 <div align="center">
 
-### 🕵️ THE IMPOSTOR
+###  THE IMPOSTOR
 
 **Every suspect has a story.
 Every clue has a purpose.
