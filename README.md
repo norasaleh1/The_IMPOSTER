@@ -1,63 +1,90 @@
-# THE IMPOSTOR — Full-Stack AI Investigation Game 🕵️‍♂️🔍
+🕵️ THE IMPOSTOR
+An AI-Powered Full-Stack Detective Investigation Game
 
-An immersive, full-stack AI detective investigation game built with **React + TypeScript + Vite**, **Node.js + Express**, **SQLite**, and **Google Gemini API**.
+THE IMPOSTOR is an interactive detective game where players step into the role of an investigator, examine evidence, interrogate suspects, uncover contradictions, and solve confidential criminal cases.
 
----
+Built as a full-stack web application, the project combines investigation gameplay with persistent data, interactive case mechanics, and an AI detective assistant powered by Google Gemini.
 
-## 🌟 Key Features
+Observe carefully. Question everything. Trust the evidence. Find the impostor.
 
-- **3 Confidential Case Files**:
-  1. **Case #01: The Missing Dossier** (Cybernetics Laboratory Vault Theft)
-  2. **Case #02: The Sovereign Cyber Heist** (44th Floor FinTech Heist)
-  3. **Case #03: The Stolen Heirloom at Al-Yamamah Wedding** (Royal Emerald Necklace Theft)
-- **Interactive Interrogation Room**: Dynamic dialogue and unlocked confrontation questions.
-- **Evidence Locker & Forensics**: Digital access logs, CCTV footage, and laboratory analysis.
-- **Investigation Board**: Link clues and suspects with red yarn strings to uncover contradictions (+150 pts bonus).
-- **Interactive Case Timeline**: Compare verified electronic timestamps against suspect statements.
-- **AI Detective Assistant (AIDEN)**: Powered by Gemini API with spoiler-free guardrails and heuristic fallback engine.
-- **Accusation Terminal & Scoring**: 3 attempts, difficulty scaling, accuracy rating, and rank assignment.
-- **Hall of Fame Leaderboard**: SQLite-persisted clearance records and scores.
-- **Procedural Web Audio Engine**: Synthesized typewriter SFX, clue chimes, and victory fanfare without external audio files.
+🔎 About the Game
 
----
+Each case begins with an incident briefing and a group of suspects.
 
-## 🚀 Quick Start
+The investigator must explore the available evidence, interrogate suspects, reconstruct the timeline, connect clues on the investigation board, and determine who is responsible.
 
-### 1. Install Dependencies
-```bash
-# Install server dependencies
-cd server
-npm install
+But accusations have consequences — players have limited attempts, and their final performance determines their investigation score and rank.
 
-# Install client dependencies
-cd ../client
-npm install
-```
+📁 Confidential Case Files
 
-### 2. Environment Setup (Optional for Gemini API)
-Create a `.env` file in the `server` directory:
-```env
-PORT=5000
-GEMINI_API_KEY=your_gemini_api_key_here
-```
-*(If no API key is provided, the game automatically runs using its built-in intelligent heuristic engine at $0 cost).*
+The game currently contains three complete investigations:
 
-### 3. Build & Run
-```bash
-# Build frontend
-cd client
-npm run build
+Case #01 — The Missing Dossier
 
-# Start the full-stack app
-cd ../server
-npm start
-```
-Open **[http://localhost:5000](http://localhost:5000)** in your browser!
+A confidential dossier disappears from a secure cybernetics laboratory vault.
 
----
+Case #02 — The Sovereign Cyber Heist
 
-## 🛠️ Tech Stack
-- **Frontend**: React 19, TypeScript, Vite, Lucide Icons, Canvas Confetti, Web Audio API
-- **Backend**: Node.js, Express.js, CORS, UUID
-- **Database**: SQLite (WAL mode, persistent storage)
-- **AI Integration**: Google Generative AI SDK (`@google/generative-ai`)
+A sophisticated FinTech heist takes place on the 44th floor, leaving investigators with digital evidence and conflicting stories.
+
+Case #03 — The Stolen Heirloom
+
+During a wedding at Al-Yamamah, a valuable royal emerald necklace suddenly disappears.
+
+Every case includes its own suspects, evidence, timeline, interrogations, contradictions, and final solution.
+
+✨ Key Features
+🗣️ Interactive Interrogation Room
+
+Question suspects and unlock new confrontation options as the investigation progresses.
+
+🔬 Evidence Locker & Forensics
+
+Inspect digital logs, CCTV records, forensic findings, and other evidence collected during each case.
+
+🧵 Investigation Board
+
+Connect suspects and clues using an interactive investigation board to discover relationships and contradictions.
+
+Correct connections can earn bonus investigation points.
+
+⏱️ Case Timeline
+
+Compare verified timestamps with suspect statements to identify inconsistencies in their stories.
+
+🤖 AI Detective Assistant — AIDEN
+
+An integrated detective assistant powered by the Google Gemini API helps investigators reason about the case without directly revealing the solution.
+
+If Gemini is unavailable, the game can continue using its built-in heuristic fallback system.
+
+🎯 Accusation System
+
+When enough evidence has been collected, investigators can submit their final accusation.
+
+Players receive limited attempts, making every decision important.
+
+🏆 Scoring & Investigator Ranking
+
+Performance is evaluated based on investigation accuracy and player decisions.
+
+🥇 Hall of Fame
+
+Completed investigations and scores are stored using SQLite and displayed through a persistent leaderboard.
+
+🔊 Procedural Audio
+
+The game includes dynamically generated sound effects such as typewriter sounds, clue notifications, and victory effects using the Web Audio API.
+
+No external audio files are required.
+
+🛠️ Tech Stack
+Layer	Technologies
+Frontend	React 19, TypeScript, Vite
+Backend	Node.js, Express.js
+Database	SQLite
+AI	Google Gemini API
+UI	Lucide React
+Effects	Canvas Confetti
+Audio	Web Audio API
+API Communication	REST API
