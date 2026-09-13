@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="client/public/logo.png" alt="THE IMPOSTOR Logo" width="300">
+</p>
 #  THE IMPOSTOR
 
 ### An AI-Powered Full-Stack Detective Investigation Game
@@ -174,6 +177,6 @@ Developed as a full-stack interactive investigation game combining **web develop
 Every clue has a purpose.
 Only the evidence tells the truth.**
 
-`CASE STATUS: CLASSIFIED`
+
 
 </div>
