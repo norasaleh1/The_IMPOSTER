@@ -103,102 +103,6 @@ No external audio files are required.
 
 ---
 
-## 🏗️ Project Structure
-
-```text
-THE_IMPOSTOR/
-│
-├── client/
-│   ├── public/
-│   └── src/
-│       ├── components/
-│       ├── services/
-│       ├── types/
-│       ├── App.tsx
-│       └── main.tsx
-│
-├── server/
-│   ├── casesData.js
-│   ├── db.js
-│   ├── geminiService.js
-│   ├── impostor.sqlite
-│   └── server.js
-│
-├── package.json
-├── test_gameflow.js
-└── README.md
-```
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone <your-repository-url>
-cd THE_IMPOSTOR
-```
-
-### 2. Install Backend Dependencies
-
-```bash
-cd server
-npm install
-```
-
-### 3. Install Frontend Dependencies
-
-```bash
-cd ../client
-npm install
-```
-
----
-
-## 🤖 Gemini API Setup
-
-Create a `.env` file inside the `server` directory:
-
-```env
-PORT=5000
-GEMINI_API_KEY=your_gemini_api_key_here
-```
-
-The Gemini API key is optional.
-
-If no API key is provided, **THE IMPOSTOR** can automatically use its built-in heuristic assistant instead.
-
-> ⚠️ Never commit your real API key or `.env` file to GitHub.
-
----
-
-## ▶️ Run the Game
-
-Build the frontend:
-
-```bash
-cd client
-npm run build
-```
-
-Then start the backend:
-
-```bash
-cd ../server
-npm start
-```
-
-Open:
-
-```text
-http://localhost:5000
-```
-
-Your investigation can now begin.
-
----
-
 ## 🎮 Investigation Flow
 
 ```text
@@ -238,14 +142,6 @@ Players must actively combine:
 * AI-assisted reasoning
 
 The goal is not simply to guess the culprit — it is to **build a case against them**.
-
----
-
-## 🔐 Security Note
-
-API keys and other private credentials should always be stored in environment variables and must never be committed to the repository.
-
-Make sure `.env` is included in `.gitignore` before publishing the project.
 
 ---
 
