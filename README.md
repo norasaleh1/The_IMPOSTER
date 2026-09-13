@@ -2,8 +2,8 @@
   <img src="logo.png" alt="THE IMPOSTOR Logo" width="300">
 </p>
 
-#  THE IMPOSTOR
 
+#  THE IMPOSTOR
 ### An AI-Powered Full-Stack Detective Investigation Game
 
 **THE IMPOSTOR** is an interactive detective game where players step into the role of an investigator, examine evidence, interrogate suspects, uncover contradictions, and solve confidential criminal cases.
