@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="client/public/logo.png" alt="THE IMPOSTOR Logo" width="300">
+  <img src="logo.png" alt="THE IMPOSTOR Logo" width="300">
 </p>
 #  THE IMPOSTOR
 
