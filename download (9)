@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production builds
+dist/
+client/dist/
+
+# Environment Variables
+.env
+server/.env
+server/.env.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# SQLite temp files (keep template or database)
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# OS Files
+.DS_Store
+Thumbs.db
